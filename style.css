@@ -1,0 +1,96 @@
+.p32 {
+  padding: 64px 0px;
+}
+.titulo1 { 
+    text-align: center;
+    color: #1e6c86;
+    font-weight: bold;
+    margin-bottom: 32px;
+  }
+.paragrafo-e {
+    
+    text-align: justify;
+    font-weight: 600;
+}
+.paragrafo-c {
+    
+  text-align: center;
+  font-weight: 600;
+}
+p {
+  color: #313131;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+  }
+ #banner{ 
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: calc(100vh - 76px);
+ }
+ .nav-item.nav-link,.navbar-brand {
+     color:#fdf37d;
+ }
+ .topbar {
+  z-index: 999;
+}
+.cardtank {
+  border-color: #33cccc;
+  border-width: 4px;
+}
+.cardsup {
+  border-color: #ff66cc;
+  border-width: 4px;
+}
+.carddps {
+  border-color: #fdf37d ;
+  border-width: 4px;
+}
+.cardflex1 {
+  border-color: linear-gradient(to bottom right, #33cccc 35%, #ff66cc 70%);
+  border-width: 4px;
+}
+.cardflex2 {
+  border-color: linear-gradient(to right bottom, #33cccc, #4cd8c0, #70e2af, #98ea9c, #c2f08b, #d8e579, #edd86d, #ffcb69, #ffac69, #ff8c7f, #ff70a2, #ff66cc);;
+  border-width: 4px;
+}
+.border-gradient {
+  border: 4px solid;
+  border-image-slice: 1;
+  border-radius: 2em;
+}
+.border-gradient-buttom {
+  border: 1px solid;
+  border-image-slice: 1;
+}
+.borderflex1 {
+  border-image-source: linear-gradient(to bottom right, #33cccc, #ff66cc);
+}
+.borderflex2 {
+  border-image-source: linear-gradient(to right bottom, #33cccc, #edd86d, #ff66cc);
+}
+.borderbuttom {
+  border-image-source: linear-gradient(to right bottom, orange , yellow, green, cyan, blue, violet);
+}
+.carddata {
+  font-weight: bold;
+  text-align: center;
+  font-size: medium;
+}
+.imgtext {
+  text-align: center;
+}
+.btncalendario {
+  box-shadow: 1px 1px rgba(0,0,0,.6);
+} 
+.bannerInicio {
+  width: 100%;
+  height: 100vh;
+}
+.espaco {
+  width: 100%;
+  height: 76px;
+}
