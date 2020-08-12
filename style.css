@@ -6,14 +6,12 @@ html {
 }
 .titulo1 { 
     text-align: center;
-    /*color: #1e6c86;*/
     color: #D99E30;
     font-weight: bold;
     margin-bottom: 32px;
   }
   .titulo2 { 
     text-align: center;
-    /*color: #1e6c86;*/
     color: whitesmoke;
     font-weight: bold;
     margin-bottom: 40px;
@@ -60,16 +58,6 @@ a:hover {
 h5.card-title {
   font-weight: bold;
 }
-.instacard-tank {
-
-}
-.instacard-tank:hover {
-  content: url(images/Icons/instagram-sketched.svg);
-  width: 2.5rem;
-}
-.instacard-tank:hover::after {
-  content: "Leonardo Rezio";
-}
 .boxshadow{
   transition: 0.2s;
 }
@@ -106,6 +94,10 @@ h5.card-title {
   border-color: #fdf37d ;
   border-width: 4px;
 }
+.cardcoach{
+  border-color: #62D076 ;
+  border-width: 4px;
+}
 .cardflex1 {
   border-color: linear-gradient(to bottom right, #33cccc 35%, #ff66cc 70%);
   border-width: 4px;
@@ -127,6 +119,9 @@ h5.card-title {
 }
 .borderflex2 {
   border-image-source: linear-gradient(to right bottom, #33cccc, #edd86d, #ff66cc);
+}
+.borderflex3 {
+  border-image-source: linear-gradient(to bottom right, #ff66cc, #62D076);
 }
 .borderbuttom {
   border-image-source: linear-gradient(to right bottom, orange , yellow, green, cyan, blue, violet);
@@ -176,7 +171,6 @@ h5.card-title {
   font-weight: bold;
   color: #918A8B;
   font-size: large;
-
 }
 .carouselControlNext,
 .carouselControlPrev {
@@ -214,10 +208,6 @@ color: #918A8B;
   width: 3rem;
   transition: 0.2s;
 }
-/*.controlsize:hover {
-  left: 0.5rem;
-  transition: 0.2s;
-}*/
 .versus {
   font-style: italic;
   font-weight: 400;
@@ -236,20 +226,17 @@ color: #918A8B;
   .carousel-inner .active + .carousel-item + .carousel-item {
       display: block;
   }
-  
   .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
   .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
   .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
       transition: none;
       margin-right: initial;
   }
-  
   .carousel-inner .carousel-item-next,
   .carousel-inner .carousel-item-prev {
     position: relative;
     transform: translate3d(0, 0, 0);
   }
-  
   .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
       position: absolute;
       top: 0;
@@ -258,7 +245,6 @@ color: #918A8B;
       display: block;
       visibility: visible;
   }
-  
   /* left or forward direction */
   .active.carousel-item-left + .carousel-item-next.carousel-item-left,
   .carousel-item-next.carousel-item-left + .carousel-item,
@@ -268,7 +254,6 @@ color: #918A8B;
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
   }
-  
   /* farthest right hidden item must be abso position for animations */
   .carousel-inner .carousel-item-prev.carousel-item-right {
       position: absolute;
@@ -278,7 +263,6 @@ color: #918A8B;
       display: block;
       visibility: visible;
   }
-  
   /* right or prev direction */
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right + .carousel-item,
@@ -290,5 +274,4 @@ color: #918A8B;
       display: block;
       visibility: visible;
   }
-
 }
